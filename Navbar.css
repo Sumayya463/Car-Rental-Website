@@ -1,0 +1,188 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    height:80px;
+    width: 100vw;
+    margin-top: -10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-left: -10px;
+
+    
+
+    .navbar-heading{
+        font-style: italic;
+        
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-left: 30px;
+        
+        .link{
+            text-decoration: none;
+        }
+    
+        margin-top: 5px;
+        h1:hover{
+            color: rgb(172, 162, 235);
+         
+        }
+
+    }
+    .search-location{
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-right: 10px;
+        height: 30px;
+       
+        display: flex;
+        flex-direction: row;
+
+        .location{
+        background-color:rgb(226, 226, 226) ;
+        height: 50px;
+        padding-left: 10px;
+        color:grey;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 460px;
+        box-shadow: 1px 2px 2px 1px rgb(95, 87, 147) ;
+        border-radius: 30px;
+        border: none;
+        
+        }
+        .location:focus{
+            outline: none;
+        }
+        
+    }
+
+    .nav-search{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .search-button{
+        background-color:rgb(226, 226, 226);
+        height: 50px;
+        width: 50px;
+        border-radius: 30px;
+        margin-top:16px;
+        box-shadow: 1px 2px 2px 1px rgb(95, 87, 147) ;
+   
+        
+
+        button{
+            background: transparent;
+            height:28px;
+            margin-left: 12px;
+            margin-top: 10px;
+            border: none;
+            img{
+                height: 25px;
+                width: 25px;
+               margin-left: -3px;
+               margin-top: 3px;
+            }
+            
+        }
+       
+    }
+   
+    .search-button:active{
+        transform: scale(0.7);
+        transition: ease-in 2s;
+    }
+    .search-button:focus{
+        outline: none;
+    }
+
+    .nav-icons {
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-between;
+        .Help p  , .Profile p, .Bookings p, .Previous-Rides p{
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            
+        }
+        .Help{
+            margin-left: 50px;
+            margin-right: 40px;
+        }
+        .links{
+            text-decoration: none;
+            color: black;
+        }
+        
+    .Help p:hover, .Profile p:hover, .Bookings p:hover, .Previous-Rides p:hover{
+            color:rgb(172, 162, 235);
+        }
+
+     .Help img, .Profile img, .Bookings img, .Previous-Rides img{
+            height:28px;
+            margin-top:15px;
+            background: transparent;
+            
+            
+        }
+        .Bookings, .Previous-Rides{
+            margin-right: 35px;
+            text-align: center;
+        
+        }
+
+        .Profile{
+            text-align: center;
+        }
+       
+        .login{
+          
+              border:none;
+              height:50px;
+              width: 120px;
+              margin-top: 15px;
+              margin-left: 20px;
+              border-radius: 30px;
+              background-color: rgb(172, 162, 235);
+              box-shadow: 1px 2px 2px 1px rgb(95, 87, 147);
+              font-size: 16px;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+           
+        }
+        .login:hover{
+            background-color: rgb(124, 117, 176);
+            color: white;
+        }
+        .login:active{
+            transform: scale(0.7);
+            transition: ease-in 2s;
+        }
+
+        .signup{
+          
+            border:none;
+            height:50px;
+            width: 120px;
+            margin-top: 15px;
+            margin-left: 40px;
+            margin-right: 10px;
+            border-radius: 30px;
+            background-color: rgb(226, 226, 226);
+            box-shadow: 1px 2px 2px 1px rgb(95, 87, 147);
+            font-size: 16px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+         
+      }
+      .signup:hover{
+          background-color: rgb(124, 117, 176);
+          color: white;
+      }
+      .signup:active{
+          transform: scale(0.7);
+          transition: ease-in 2s;
+      }
+    }
+}
